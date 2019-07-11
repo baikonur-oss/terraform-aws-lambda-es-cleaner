@@ -23,6 +23,8 @@ module "es_cleaner" {
 }
 ```
 
+Warning: use same module and package versions!
+
 ### Version pinning
 #### Terraform Module Registry
 Use `version` parameter to pin to a specific version, or to specify a version constraint when pulling from [Terraform Module Registry](https://registry.terraform.io) (`source = baikonur-oss/lambda-es-cleaner/aws`).
