@@ -33,7 +33,7 @@ resource "aws_lambda_function" "function" {
     mode = "${var.tracing_mode}"
   }
   environment {
-    variables {
+    variables = {
       TZ = "${var.timezone}"
 
       ES_HOST      = "${var.elasticsearch_host}"
