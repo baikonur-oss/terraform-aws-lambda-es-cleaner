@@ -2,7 +2,7 @@
 
 Terraform module for automatically deleting Elasticsearch index exceeding maximum retention period.
 
-![terraform v0.11.x](https://img.shields.io/badge/terraform-v0.11.x-brightgreen.svg)
+![terraform v0.12.x](https://img.shields.io/badge/terraform-v0.12.x-brightgreen.svg)
 
 ## Prerequisites
 
