@@ -55,7 +55,7 @@ For more information on module version pinning, see [Selecting a Revision](https
 | name | Resource name | string | n/a | yes |
 | runtime | Lambda Function runtime | string | `"python3.7"` | no |
 | schedule\_expression | Lambda Schedule Expressions for Rules (https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/events/ScheduledEvents.html) | string | n/a | yes |
-| tags | Tags for Lambda Function | map | `<map>` | no |
+| tags | Tags for Lambda Function | map(string) | `{}` | no |
 | timeout | Lambda Function timeout in seconds | string | `"60"` | no |
 | timezone | tz database timezone name (e.g. Asia/Tokyo) | string | `"UTC"` | no |
 | tracing\_mode | X-Ray tracing mode (see: https://docs.aws.amazon.com/lambda/latest/dg/API_TracingConfig.html ) | string | `"PassThrough"` | no |
