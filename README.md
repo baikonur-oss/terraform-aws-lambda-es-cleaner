@@ -3,6 +3,7 @@
 Terraform module for automatically deleting Elasticsearch index exceeding maximum retention period.
 
 ![terraform v0.12.x](https://img.shields.io/badge/terraform-v0.12.x-brightgreen.svg)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/baikonur-oss/terraform-aws-lambda-es-cleaner.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/baikonur-oss/terraform-aws-lambda-es-cleaner/context:python)
 
 ## Prerequisites
 
