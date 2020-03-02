@@ -1,7 +1,6 @@
 import logging
 import os
 
-import certifi
 import curator
 from curator.exceptions import NoIndices
 from elasticsearch import Elasticsearch, RequestsHttpConnection
@@ -24,7 +23,6 @@ aws_auth = AWS4Auth(os.environ['AWS_ACCESS_KEY_ID'],
 
 # noinspection PyUnusedLocal
 def handler(event, context):
-    entries = []
     es = Elasticsearch(hosts=[{'host': elasticsearch_host, 'port': 443}],
                        http_auth=aws_auth,
                        use_ssl=True,
