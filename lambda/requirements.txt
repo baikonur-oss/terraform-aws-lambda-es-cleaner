@@ -1,4 +1,4 @@
-elasticsearch>=5.0.0,<6.0.0
-elasticsearch-curator
-requests-aws4auth
-certifi
+elasticsearch==7.5.1
+elasticsearch-curator==5.8.0
+requests-aws4auth==0.9
+certifi==2019.11.28
