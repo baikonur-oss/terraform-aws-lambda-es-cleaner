@@ -1,4 +1,4 @@
-elasticsearch>=5.0.0,<6.0.0
+elasticsearch==7.5.1
 elasticsearch-curator
 requests-aws4auth
 certifi
