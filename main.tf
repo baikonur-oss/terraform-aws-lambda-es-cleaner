@@ -65,7 +65,7 @@ resource "aws_lambda_permission" "allow_cloudwatch_invocation" {
 
 module "iam" {
   source  = "baikonur-oss/iam-nofile/aws"
-  version = "v1.0.1"
+  version = "v2.0.0"
 
   type = "lambda"
   name = var.name
